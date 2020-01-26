@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CashbackHackServiceTest {
 
     @Test
-    void shouldReturnOKIfAmountl2900() {
+    void shouldReturnTrueIfAmountls2900() {
         CashbackHackService service = new CashbackHackService();
         int amount = 2900;
 
@@ -16,7 +16,7 @@ class CashbackHackServiceTest {
     }
 
     @Test
-    void shouldReturnFulseIfAmountl1000() {
+    void shouldReturnFalseIfAmountls1000() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
 
